@@ -8,10 +8,6 @@ setTimeout(function(){
         function(){
             $(this).val("Good Job."); //这里是点评的内容
         });
-},1000)
-setTimeout(function(){
     document.getElementsByClassName('j-submitbtn')[0].click();
-},1000)
-setTimeout(function(){
     document.getElementsByClassName('j-gotonext')[0].click();
 },1000)
