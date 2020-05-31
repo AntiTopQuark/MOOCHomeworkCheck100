@@ -1,4 +1,7 @@
 document.body.appendChild(document.createElement('script')).src='//code.jquery.com/jquery-1.9.1.min.js';
+document.querySelectorAll('.s').forEach(e => {
+                e.children[e.children.length - 1].children[0].checked = true
+            });
 setTimeout(function(){
     $(".s label:last-child").each(
         function(){
